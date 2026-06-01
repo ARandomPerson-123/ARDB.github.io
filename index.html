@@ -2,32 +2,34 @@
 <html>
 <head>
   <title>ARDB</title>
- <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="h11"> Welcome to the Amusement Ride Database</h1>
-<button class="button" id="b1">Random Amusement Ride</button>
-<div>
-  <p id="p1"> Amusement Ride Searcher </p>
-   <button class="button" id="b2">Go to search page for amusement rides</button> <br>
-   <button class="button" id="b3">Go to search page for Manufacturers</button> <br>
-   <button class="button"id="b4">Go to search page for Amusement Parks</button> <br>
-</div>
-  <h3><a id="a1" href="Fahrenheit.html">Today's Random Amusement Ride is"Fahrenheit"</a> </h3>
-  <img id="img1" src="Fahrenheit.jpg" style="width: 200px">
-<h3> 
-<h6>Photo by Jrosenberry( User Doesn't exsit) on <a href="https://commons.wikimedia.org/wiki/File:The_Fahrenheit,_Hersheypark,_at_dark.jpg#/media/File:The_Fahrenheit,_Hersheypark,_at_dark.jpg">Wikimedia</a> using the <a href="https://creativecommons.org/licenses/by-sa/4.0/#ref-appropriate-credit">CC BY SA</a> license</h6>
-  Manufacturers: <br>
-  <a href="Intamin.html">Intamin</a> <br>
-  <a href="B&M.html"> B&M</a> <br>
-  <a href="RMC.html">RMC</a>  <br>
-  Amusement Parks: <br>
-  <a href="HP.html">Hersheypark</a> 
-</h3>
-<a href="https://arandomperson-123.github.io/Roller-Coaster-Simulators.github.io/">Click Here to learn about Roller coasters, Computers, and Roller Coaster Simulations! </a>
-</body>
+  <h1 id="h11">Welcome to the Amusement Ride Database</h1>
+  
+  <button class="button" id="b1">Random Amusement Ride</button>
+  
+  <div>
+    <p id="p1">Amusement Ride Searcher</p>
+    <button class="button" id="b2">Go to search page for amusement rides</button> <br>
+    <button class="button" id="b3">Go to search page for Manufacturers</button> <br>
+    <button class="button" id="b4">Go to search page for Amusement Parks</button> <br>
+  </div>
 
+  <div id="ride-display-container">
+    <h3 id="ride-headline">Loading today's feature...</h3>
+    
+    <img id="img1" src="" style="width: 200px; display: none;">
+    
+    <h6 id="credit-text"></h6>
+    
+    <h3 id="ride-stats"></h3>
+  </div>
+
+  <br>
+  <a href="https://arandomperson-123.github.io/Roller-Coaster-Simulators.github.io/">Click Here to learn about Roller coasters, Computers, and Roller Coaster Simulations!</a>
+
+  <script src="app.js"></script>
+</body>
 </html>
