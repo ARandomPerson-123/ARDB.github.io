@@ -1,6 +1,6 @@
 // 1. Initialize the Supabase Client
-const SUPABASE_URL = "https://your-project-id.supabase.co";
-const SUPABASE_KEY = "your-actual-anon-public-key-here";
+const SUPABASE_URL = "https://svvvpgenjwximjznciow.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2dnZwZ2Vuand4aW1qem5jaW93Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMzIzNzUsImV4cCI6MjA5NTkwODM3NX0.NL1XNDtpHOQ3UabinnxY1KlsJrd2mMudwWK2qWVZ-Tg";
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // 2. Create a function to fetch a random ride
